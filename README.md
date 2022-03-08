@@ -18,7 +18,7 @@
      <li>Acessar a pasta e executar os comandos de 3 a 6 da tabela de comandos em um terminal(git, powershell, linux-terminal, etc).</li>
      <li>Editar o arquivo package.json, na parte de script e escrever do seguinte modo => "script" : {"dev": "next dev"}</li>
      <li> Criar uma pasta na raiz do projeto com o nome Page.</li>
-     <li> Criar um arquivo index.js e adicionar o código de exemplo abaixo.</li>
+     <li> Criar um arquivo index.js dentro da pasta Pages e adicionar o código de exemplo do tópico 4(Criar arquivo Index).</li>
      <li> Salvar arquivo index.js e executar o comando 7 da tabela de comandos.</li>
 </ul>
 </div>
