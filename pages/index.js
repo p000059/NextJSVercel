@@ -5,27 +5,27 @@ function Home(){
     
     return (
         <div>
-            <h1>React.js Versel</h1>
-            <Count />
+            <h1>Marcelo Guimba</h1>
+            
         </div>
     );
 }
 
-function Count(){
-    const [count, setCount] = useState(1);
+// function Count(){
+//     const [count, setCount] = useState(1);
 
     
-    function addCount(){
-        setCount(count + 1)
-    }
+//     function addCount(){
+//         setCount(count + 1)
+//     }
     
-    return (
-        <div>
-            <div>{count}</div>
-            <button onClick={addCount}>Adiciona</button>
-        </div>
-    );
-}
+//     return (
+//         <div>
+//             <div>{count}</div>
+//             <button onClick={addCount}>Adiciona</button>
+//         </div>
+//     );
+// }
 
 
 export default Home;
