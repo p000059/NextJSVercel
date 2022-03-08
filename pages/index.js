@@ -11,8 +11,9 @@ function Home(){
 
     return (
         <div>            
-            <p>Contagem:{count}</p>
-            <button onClick={() => useCount(count+1)} >Add</button>
+            <p>Hello World!</p>
+            
+            <button onClick={() => useCount(count+1)} >Add</button> =&gt; {count}
         </div>
     );
 }
