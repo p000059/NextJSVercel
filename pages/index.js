@@ -1,31 +1,20 @@
 import React from 'react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function Home(){
     
+    const [count, useCount] = useState(0);
+
+    useEffect(
+        () => console.log("Página Carregada")
+    )
+
     return (
-        <div>
-            <h1>Hello World!</h1>
-            
+        <div>            
+            <p>Contagem:{count}</p>
+            <button onClick={() => useCount(count+1)} >Add</button>
         </div>
     );
 }
-
-// function Count(){
-//     const [count, setCount] = useState(1);
-
-    
-//     function addCount(){
-//         setCount(count + 1)
-//     }
-    
-//     return (
-//         <div>
-//             <div>{count}</div>
-//             <button onClick={addCount}>Adiciona</button>
-//         </div>
-//     );
-// }
-
 
 export default Home;
