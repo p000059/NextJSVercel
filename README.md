@@ -1,4 +1,15 @@
 <h1 align="center"> Criar app Next.js </h1>
+
+<div>
+     <h3 align="left">Pré-requisitos</h3>
+     <ul>
+          <li>Ter instalado o Node.js no computador.</li>
+          <li>Ter um editor de código ou uma IDE para criar o código.</li>
+     </ul>
+</div>
+
+<div>
+<hr>
 <h3 align="left">Tabela de comandos</h3>
 <table>
      <thead>
@@ -30,25 +41,13 @@
           </tr>
      </tbody>
 </table>
-
-</div>
-<div>    
-     <hr>
-     <h3 align="left"> Editar arquivo package </h3>
-     <p>No arquivo package.json , alterar na propriedade "script" como abaixo:</p>
-
-<div>
- "script" : {
-     "dev": "next dev"
- }
- </div>
-     
 </div>
 
 <div>
 <hr>
 <h3 align="left"> Sequência de execução </h3>
 <ul>
+     <li>Editar o arquivo package.json, Ex. => "script" : {"dev": "next dev"}</li>
      <li> Criar uma pasta na raiz do projeto com o nome Page.</li>
      <li> Criar um arquivo index.js e adicionar o código de exemplo abaixo.</li>
      <li> Salvar arquivo index.js e executar o comando 5 da tabela de comandos.</li>
