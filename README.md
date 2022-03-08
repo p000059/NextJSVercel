@@ -20,6 +20,7 @@
      <li> Criar uma pasta na raiz do projeto com o nome Page.</li>
      <li> Criar um arquivo index.js dentro da pasta Pages e adicionar o código de exemplo do tópico 4(Criar arquivo Index).</li>
      <li> Salvar arquivo index.js e executar o comando 7 da tabela de comandos.</li>
+     <li>Acessar no navegador o endereço: <a href="http://localhost:3000/" target="_blank">localhost:3000</a></li>
 </ul>
 </div>
 
