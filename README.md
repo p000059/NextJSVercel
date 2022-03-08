@@ -1,7 +1,7 @@
 <h1 align="center"> Criar app Next.js </h1>
 
 <div>
-     <h3 align="left">Pré-requisitos</h3>
+     <h3 align="left">1. Pré-requisitos</h3>
      <ul>
           <li>Ter instalado o Node.js no computador.</li>
           <li>Ter um editor de código ou uma IDE para criar o código.</li>
@@ -12,7 +12,20 @@
 
 <div>
 <hr>
-<h3 align="left">Tabela de comandos</h3>
+<h3 align="left">2. Sequência de execução </h3>
+<ul>
+     <li>Criar uma pasta com o nome do projeto.</li>
+     <li>Acessar a pasta e executar os comandos de 3 a 6 da tabela de comandos em um terminal(git, powershell, linux-terminal, etc).</li>
+     <li>Editar o arquivo package.json, na parte de script e escrever do seguinte modo => "script" : {"dev": "next dev"}</li>
+     <li> Criar uma pasta na raiz do projeto com o nome Page.</li>
+     <li> Criar um arquivo index.js e adicionar o código de exemplo abaixo.</li>
+     <li> Salvar arquivo index.js e executar o comando 7 da tabela de comandos.</li>
+</ul>
+</div>
+
+<div>
+<hr>
+<h3 align="left">3. Tabela de comandos</h3>
 <table>
      <thead>
           <tr>
@@ -55,7 +68,7 @@
           <tr>
                <td>7</td>
                <td>npm run dev</td>
-               <td>executa o app</td>
+               <td>executa o app(o nome dev foi definido no script do arquivo package.json)</td>
           </tr>
      </tbody>
 </table>
@@ -63,20 +76,7 @@
 
 <div>
 <hr>
-<h3 align="left"> Sequência de execução </h3>
-<ul>
-     <li>Criar uma pasta com o nome do projeto.</li>
-     <li>Acessar a pasta e executar os comandos de 3 a 6 da tabela de comandos.</li>
-     <li>Editar o arquivo package.json, na parte de script e escrever do seguinte modo => "script" : {"dev": "next dev"}</li>
-     <li> Criar uma pasta na raiz do projeto com o nome Page.</li>
-     <li> Criar um arquivo index.js e adicionar o código de exemplo abaixo.</li>
-     <li> Salvar arquivo index.js e executar o comando 7 da tabela de comandos.</li>
-</ul>
-</div>
-
-<div>
-<hr>
-<h3 align="left"> Criar arquivo index </h3>
+<h3 align="left">4. Criar arquivo index </h3>
 <div>
      
      import React from 'react';
