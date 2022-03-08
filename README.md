@@ -47,7 +47,7 @@
 
 <div>
 <hr>
-<h3 align="left"> Sequencia de execução </h3>
+<h3 align="left"> Sequência de execução </h3>
 <ul>
      <li> Criar uma pasta na raiz do projeto com o nome Page.</li>
      <li> Criar um arquivo index.js e adicionar o código de exemplo abaixo.</li>
